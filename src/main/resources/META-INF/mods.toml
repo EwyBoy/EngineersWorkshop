@@ -1,0 +1,27 @@
+modLoader="javafml"
+loaderVersion="[35,)"
+license="MIT License"
+issueTrackerURL="https://github.com/EwyBoy/EngineersWorkshop/issues"
+
+[[mods]]
+    modId="engineersworkshop"
+    version="${file.jarVersion}"
+    displayName="Engineers Workshop"
+    displayURL="https://www.curseforge.com/minecraft/mc-mods/engineers-workshop"
+    credits="JorVa and Modmuss50 for keeping this mod alive"
+    authors="Ewy"
+    description="The ultimate workshop table experience!"
+
+[[dependencies.oretweaker]]
+    modId="forge"
+    mandatory=true
+    versionRange="[35,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.oretweaker]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.3, 1.17)"
+    ordering="NONE"
+    side="BOTH"
