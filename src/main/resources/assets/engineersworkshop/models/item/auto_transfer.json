@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "engineersworkshop:item/upgrades/auto_crafter"
+    "layer0": "engineersworkshop:item/upgrades/auto_transfer"
   }
 }

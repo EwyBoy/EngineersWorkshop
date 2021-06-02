@@ -1,13 +1,13 @@
-package com.ewyboy.hammertime.common.util;
+package com.ewyboy.engineersworkshop.common.util;
 
-import com.ewyboy.hammertime.HammerTime;
+import com.ewyboy.engineersworkshop.EngineersWorkshop;
 import org.apache.logging.log4j.Level;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ModLogger {
 
-    private static final Logger logger = LogManager.getLogger(HammerTime.MOD_ID);
+    private static final Logger logger = LogManager.getLogger(EngineersWorkshop.MOD_ID);
 
     public static void debug(String message, Object... params) {
         logger.log(Level.DEBUG, String.format(message, params));

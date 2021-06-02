@@ -1,5 +1,8 @@
-package engineers.workshop.common.unit;
+package com.ewyboy.engineersworkshop.common.unit;
 
+import com.ewyboy.engineersworkshop.common.content.item.Upgrade;
+import com.ewyboy.engineersworkshop.common.content.tile.WorkshopTile;
+import com.ewyboy.engineersworkshop.common.unit.Unit;
 import engineers.workshop.client.GuiBase;
 import engineers.workshop.client.container.slot.crafting.SlotUnitCraftingGrid;
 import engineers.workshop.client.container.slot.crafting.SlotUnitCraftingOutput;
@@ -46,7 +49,7 @@ public class UnitCraft extends Unit {
 	private int canCraftTick = 0;
 	private CraftingBase oldGrid;
 
-	public UnitCraft(TileTable table, Page page, int id, int x, int y) {
+	public UnitCraft(WorkshopTile table, Page page, int id, int x, int y) {
 		super(table, page, id, x, y);
 	}
 

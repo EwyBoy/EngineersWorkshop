@@ -1,4 +1,4 @@
-package engineers.workshop.client.component;
+package com.ewyboy.engineersworkshop.client.component;
 
 import engineers.workshop.client.GuiBase;
 

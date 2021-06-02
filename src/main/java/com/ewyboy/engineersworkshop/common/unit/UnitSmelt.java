@@ -1,5 +1,8 @@
-package engineers.workshop.common.unit;
+package com.ewyboy.engineersworkshop.common.unit;
 
+import com.ewyboy.engineersworkshop.common.content.item.Upgrade;
+import com.ewyboy.engineersworkshop.common.content.tile.WorkshopTile;
+import com.ewyboy.engineersworkshop.common.unit.Unit;
 import engineers.workshop.client.container.slot.smelting.SlotUnitFurnaceInput;
 import engineers.workshop.client.container.slot.smelting.SlotUnitFurnaceQueue;
 import engineers.workshop.client.container.slot.smelting.SlotUnitFurnaceResult;
@@ -26,7 +29,7 @@ public class UnitSmelt extends Unit {
 	private int outputId;
 	private int queueId;
 
-	public UnitSmelt(TileTable table, Page page, int id, int x, int y) {
+	public UnitSmelt(WorkshopTile table, Page page, int id, int x, int y) {
 		super(table, page, id, x, y);
 	}
 

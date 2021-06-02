@@ -1,5 +1,7 @@
-package engineers.workshop.common.unit;
+package com.ewyboy.engineersworkshop.common.unit;
 
+import com.ewyboy.engineersworkshop.common.content.item.Upgrade;
+import com.ewyboy.engineersworkshop.common.content.tile.WorkshopTile;
 import com.mojang.blaze3d.platform.GlStateManager;
 import engineers.workshop.client.GuiBase;
 import engineers.workshop.client.container.slot.SlotBase;
@@ -26,7 +28,7 @@ public abstract class Unit {
 	private static final String NBT_CHARGED = "Charged";
 	private static final String NBT_PROGRESS = "Progress";
 	private static final int WORKING_COOLDOWN = 20;
-	protected TileTable table;
+	protected WorkshopTile table;
 	protected Page page;
 	protected int id;
 	protected int x;
@@ -35,7 +37,7 @@ public abstract class Unit {
 	private int chargeCount;
 	private List<SlotBase> slots = new ArrayList<>();
 	private int workingTicks;
-	public Unit(TileTable table, Page page, int id, int x, int y) {
+	public Unit(WorkshopTile table, Page page, int id, int x, int y) {
 		this.table = table;
 		this.page = page;
 		this.id = id;

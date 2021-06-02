@@ -1,5 +1,7 @@
-package engineers.workshop.common.unit;
+package com.ewyboy.engineersworkshop.common.unit;
 
+import com.ewyboy.engineersworkshop.common.content.tile.WorkshopTile;
+import com.ewyboy.engineersworkshop.common.unit.Unit;
 import engineers.workshop.client.container.slot.storage.SlotUnitStorage;
 import engineers.workshop.client.page.Page;
 import engineers.workshop.common.items.Upgrade;
@@ -15,7 +17,7 @@ public class UnitStorage extends Unit {
 	private static final int GRID_HEIGHT = 4;
 	public static final int GRID_SIZE = GRID_WIDTH * GRID_HEIGHT;
 
-	public UnitStorage(TileTable table, Page page, int id, int x, int y) {
+	public UnitStorage(WorkshopTile table, Page page, int id, int x, int y) {
 		super(table, page, id, x, y);
 	}
 

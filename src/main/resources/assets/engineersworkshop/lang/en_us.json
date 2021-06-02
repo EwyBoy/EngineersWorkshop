@@ -1,0 +1,14 @@
+{
+  "itemGroup.engineersworkshop": "Engineers Workshop",
+  "item.engineersworkshop.workshop": "Workshop Table",
+  "item.engineersworkshop.blank": "Blank Upgrade",
+  "item.engineersworkshop.blank.description": "Placeholder",
+  "item.engineersworkshop.auto_crafter": "Auto-Crafter Upgrade",
+  "item.engineersworkshop.storage": "Storage Upgrade",
+  "item.engineersworkshop.charged": "Charged Upgrade",
+  "item.engineersworkshop.speed": "Speed Upgrade",
+  "item.engineersworkshop.queue": "Queue Upgrade",
+  "item.engineersworkshop.auto_transfer": "Auto-Transfer Upgrade",
+  "item.engineersworkshop.filter": "Filter Upgrade",
+  "item.engineersworkshop.transfer": "Transfer Upgrade"
+}

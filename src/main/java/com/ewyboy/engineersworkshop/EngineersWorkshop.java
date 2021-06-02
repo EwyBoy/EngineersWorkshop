@@ -2,7 +2,6 @@ package com.ewyboy.engineersworkshop;
 
 import com.ewyboy.bibliotheca.common.loaders.ContentLoader;
 import com.ewyboy.engineersworkshop.common.register.Register;
-import net.minecraft.block.Blocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.fml.common.Mod;
@@ -21,7 +20,7 @@ public class EngineersWorkshop {
     public static final ItemGroup contentGroup = new ItemGroup(MOD_ID) {
         @Override
         public ItemStack createIcon() {
-            return new ItemStack(Blocks.ANVIL);
+            return new ItemStack(Register.BLOCKS.WORKSHOP);
         }
     };
 
